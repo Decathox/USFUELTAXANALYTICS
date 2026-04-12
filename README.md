@@ -24,13 +24,13 @@ Ce projet implémente une API capable de répondre à trois besoins métiers :
 ## Installation
 
 ```bash
-pip install -r requirements.txt
+docker build -t us-fuel-tax-api .
 ```
 
 ## Lancement
 
 ```bash
-uvicorn main:app --reload
+docker run -p 8000:8000 us-fuel-tax-api
 ```
 
 ## Accès
