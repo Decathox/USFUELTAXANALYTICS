@@ -19,7 +19,7 @@ Ce projet implémente une API capable de répondre à trois besoins métiers :
 
 ## Prérequis
 
-* Python 3.10+
+* Docker
 
 ## Installation
 
