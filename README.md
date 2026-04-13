@@ -79,7 +79,7 @@ curl "http://127.0.0.1:8000/USFuelTaxes/AL/taxes_averages_by_fuels"
 Classe tous les États pour une année et un carburant donné.
 
 ```http
-GET USFuelTaxes/rankings?year=YYYY-MM-DD&fuel_type_code=
+GET /USFuelTaxes/rankings?year=YYYY-MM-DD&fuel_type_code=
 ```
 
 ### Exemple
